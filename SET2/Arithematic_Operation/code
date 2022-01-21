@@ -1,0 +1,13 @@
+#!/bin/sh
+echo "enter the first number"
+read a
+echo "enter the second number"
+read b 
+echo "perform addition"
+echo "$a + $b"|bc
+echo "perform subtraction"
+echo "$a - $b"|bc
+echo "perform multiplication"
+echo "$a * $b"|bc
+echo "perform division"
+echo "scale=2; $a/$b"|bc

@@ -1,0 +1,6 @@
+#!/bin/bash
+read rad
+echo "Enter the radius of the circle $rad"
+pi=3.142
+area= `expr $pi\*$rad\*$rad|bc`
+echo $area

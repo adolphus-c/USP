@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "Enter the temperature in Fahrenheit"
+read f
+var=`expr $f-32|bc`
+car=`expr $var\*5|bc`
+cel= echo "scale=2;$car/9"|bc
+echo "Temperature in celsius $cel"

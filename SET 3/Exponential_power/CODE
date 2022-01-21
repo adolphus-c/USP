@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "enter the number"
+read n
+echo "enter the power"
+read p
+val=1
+while [ $p -gt 0 ]
+do 
+val=$((val*n))
+p=$((p-1))
+done
+echo "Exponential value is $val"
